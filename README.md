@@ -1,7 +1,7 @@
 # Question-Answer
 ## JavaScript | Ember
 
-#### Template in Ember, August 12, 2016
+#### Template in Ember, August 26, 2016
 
 #### By _**Tim Jung**_
 
@@ -23,6 +23,7 @@ User(s) can submit answers to the questions posted.
 ```
 npm install; bower install; ember s
 ```
+* Open browser (preferably Chrome) to http://localhost:4200/
 * Also must have npm installed globally
 
 ## Known Bugs
