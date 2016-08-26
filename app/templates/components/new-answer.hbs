@@ -1,0 +1,25 @@
+{{#if answerQuestion}}
+  <h4>Update</h4>
+  <div>
+    <form>
+      <div class="form-group">
+        <label for="screenName">Username</label>
+        {{input value=screenName id="screenName" placeholder=answer.screenName}}
+      </div>
+
+      <div class="form-group">
+        <label for="avatar">Link your Avatar</label>
+        {{input value=avatar id="avatar" placeholder=question.avatar}}
+      </div>
+
+      <div class="form-group">
+        <label for="solution">Answer</label>
+        {{input size="130" value=solution id="solution" placeholder=question.solution}}
+      </div>
+
+      <button {{action 'answerQuestion'}}>Submit</button>
+    </form>
+  </div>
+{{else}}
+  <button class="btn-lg btn-danger" {{action 'answerQuestionShow'}}>Give Answer!</button>
+{{/if}}

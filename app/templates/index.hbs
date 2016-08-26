@@ -3,14 +3,8 @@
   <h1> Welcome to Guu Questions </h1>
 
   <p>We'll help you find the answers.</p>
-  {{#each model.question as |question|}}
-    <div class="row">
-       <h4>{{question.screenName}}</h4>
-       <img class="avatar" src={{question.avatar}}>
-    </div>
-    {{#link-to 'question' question.id}}<h3 class="hotlink">{{question.query}}</h3>{{/link-to}}
-  {{/each}}
-  <!-- <br>
-  {{ ask-question saveQuestion="saveQuestion2" }}
-{{#link-to 'answer'}}answer{{/link-to}} -->
+{{question-tile model=model}}
+  <br>
+  {{ new-question saveQuestion="saveQuestion2" }}
+<!-- {{#link-to 'answer'}}answer{{/link-to}} -->
 </div>
