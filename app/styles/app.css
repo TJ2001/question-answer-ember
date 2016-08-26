@@ -5,7 +5,7 @@
 
 .hotlink:hover {
   -webkit-transform:scale(1.08);
-  background-color:pink;
+  background-color: #FFF05A;
 }
 
 .avatar {
@@ -33,4 +33,33 @@
 .biggerFont {
   font-size: 30px;
   color: white;
+}
+
+body {
+  background-color: #7389AE;
+}
+
+.bg-right {
+  background-color: #ECEBF3;
+  position: fixed;
+  top: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.different-background {
+  background-color: #FFF05A;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-width: medium;
+  border-color: #FA8334;
+}
+
+.margin-top {
+  margin-top: 40px;
 }

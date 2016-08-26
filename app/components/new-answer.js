@@ -12,6 +12,7 @@ export default Ember.Component.extend({
         screenName: this.get('screenName'),
         avatar: this.get('avatar'),
         solution: this.get('solution'),
+        question: this.get('question')
       };
       this.set('answerQuestion', false);
       this.sendAction('saveAnswer', params);

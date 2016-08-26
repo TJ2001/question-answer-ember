@@ -1,53 +1,48 @@
-# Message-board
+# Question-Answer
+## JavaScript | Ember
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+#### Template in Ember, August 12, 2016
 
-## Prerequisites
+#### By _**Tim Jung**_
 
-You will need the following things properly installed on your computer.
+## Description
+Question and Answer Board
 
-* [Git](http://git-scm.com/)
-* [Node.js](http://nodejs.org/) (with NPM)
-* [Bower](http://bower.io/)
-* [Ember CLI](http://www.ember-cli.com/)
-* [PhantomJS](http://phantomjs.org/)
+User(s) can submit questions to the site.
+User(s) can submit answers to the questions posted.
 
-## Installation
+## Specifications
 
-* `git clone <repository-url>` this repository
-* change into the new directory
-* `npm install`
-* `bower install`
+* User can input questions and answers. The app will output the inputted questions and answers unto the site.
+* The questions and answers will be stored unto Firebase.
 
-## Running / Development
+## Setup/Installation Requirements
 
-* `ember server`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
+* Clone this repository
+* Use the terminal to run the following command-line:
+```
+npm install; bower install; ember s
+```
+* Also must have npm installed globally
 
-### Code Generators
+## Known Bugs
 
-Make use of the many generators for code, try `ember help generate` for more details
+* Currently no known bugs
 
-### Running Tests
+## Support and contact details
 
-* `ember test`
-* `ember test --server`
+Please feel free to contact TJ2001 via Github.
 
-### Building
+## Technologies Used
 
-* `ember build` (development)
-* `ember build --environment production` (production)
+* JavaScript
+* jQuery
+* Bower
+* NPM
+* Ember
 
-### Deploying
+### License
 
-Specify what it takes to deploy your app.
+*MIT License*
 
-## Further Reading / Useful Links
-
-* [ember.js](http://emberjs.com/)
-* [ember-cli](http://www.ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-
+Copyright (c) 2016 **_Epicodus_**
