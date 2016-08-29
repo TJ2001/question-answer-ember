@@ -1,9 +1,14 @@
 
 <div class="container bg-right">
   <h1> Welcome to Guu's Questions </h1>
-
-  <p>We'll help you find the answers.</p>
-  {{question-tile model=model}}
+  <p class="font-baloo">For those who don't know. Guu is anime character who is very goofy, sometimes dangerous, and sometimes adorable.</p>
+  <div class="row">
+    <img class="guu-banner" src="http://img05.deviantart.net/052c/i/2005/335/4/3/guu_expressions_by_iseko.jpg" alt="picture of guu with split personality">
+    <img class="guu-banner" src="http://vignette3.wikia.nocookie.net/vsbattles/images/6/6f/Guu.jpg/revision/latest?cb=20141031095513">
+    <img class="guu-banner" src="http://www.cremademono.com/wp-content/uploads/2008/08/guu-yo.jpg">
+  </div>
+  <p class="font-baloo">We'll help you find the answers.</p>
+  {{question-tile question=model deleteQuestion="deleteQuestion"}}
   <br>
   {{ new-question saveQuestion="saveQuestion2" }}
 </div>

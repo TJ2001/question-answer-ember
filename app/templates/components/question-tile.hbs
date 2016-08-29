@@ -1,5 +1,11 @@
-{{#each model.question as |question|}}
-{{#link-to 'question' question.id}}<h3 class="hotlink">{{question.query}}</h3>{{/link-to}}
-<h4>{{question.screenName}}</h4>
-<img class="avatar" src={{question.avatar}}>
+{{#each question.question as |question|}}
+  <div class="row">
+    <div class="col-sm-9">
+      {{#link-to 'question' question.id}}<h3 class="hotlink">{{question.query}}</h3>{{/link-to}}
+      <h4>{{question.screenName}}</h4>
+    </div>
+    <div class="col-sm-3">
+      <button class="btn-danger" {{action 'deleteQuestion' question}}>Delete Question</button>
+    </div>
+  </div>
 {{/each}}

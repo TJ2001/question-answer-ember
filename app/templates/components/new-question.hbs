@@ -1,25 +1,20 @@
 {{#if askQuestion}}
-  <h4>Update {{question.screenName}}'s {{question.avatar}}</h4>
+  <h4>{{question.screenName}}</h4>
   <div>
     <form>
       <div class="form-group">
         <label for="screenName">Username</label>
-        {{input value=screenName id="screenName" placeholder=question.screenName}}
-      </div>
-
-      <div class="form-group">
-        <label for="avatar">Link your Avatar</label>
-        {{input value=avatar id="avatar" placeholder=question.avatar}}
+        {{input value=screenName id="screenName"}}
       </div>
 
       <div class="form-group">
         <label for="query">Ask your question here.</label>
-        {{input value=query id="query" placeholder=question.query}}
+        {{input value=query id="query"}}
       </div>
 
       <div class="form-group">
         <label for="content">Additional Details</label>
-        {{input value=content id="content" placeholder=question.content}}
+        {{input value=content id="content"}}
       </div>
 
       <button {{action 'askNewQuestion'}}>Ask</button>

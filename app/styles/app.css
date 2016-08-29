@@ -8,11 +8,6 @@
   background-color: #FFF05A;
 }
 
-.avatar {
-  width: 30px;
-  height: 30px;
-}
-
 .color {
   color: blue;
 }
@@ -41,12 +36,13 @@ body {
 
 .bg-right {
   background-color: #ECEBF3;
-  position: fixed;
   top: 50px;
   bottom: 0;
   left: 0;
   right: 0;
   z-index: -1;
+  overflow: auto;
+  padding-bottom: 100px;
 }
 
 .different-background {
@@ -62,4 +58,16 @@ body {
 
 .margin-top {
   margin-top: 40px;
+}
+
+.font-baloo{
+  font-family: 'Baloo Paaji',
+  cursive;
+  font-size: 200%;
+}
+
+.guu-banner{
+  height: 338px;
+  width: auto;
+  margin-left: 5px;
 }

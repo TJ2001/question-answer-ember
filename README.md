@@ -13,7 +13,7 @@ User(s) can submit answers to the questions posted.
 
 ## Specifications
 
-* User can input questions and answers. The app will output the inputted questions and answers unto the site.
+* User can input questions and answers. The application will output the inputted questions and answers unto the site.
 * The questions and answers will be stored unto Firebase.
 
 ## Setup/Installation Requirements

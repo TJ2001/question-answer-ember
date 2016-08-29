@@ -10,7 +10,6 @@ export default Ember.Component.extend({
     answerQuestion() {
       var params = {
         screenName: this.get('screenName'),
-        avatar: this.get('avatar'),
         solution: this.get('solution'),
         question: this.get('question')
       };
