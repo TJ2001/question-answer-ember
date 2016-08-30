@@ -1,9 +1,8 @@
 <div class="container bg-right">
   <h1 class="color">{{model.query}}</h1>
-     <h4>{{model.screenName}}</h4>
+  <h4>{{model.screenName}}</h4>
   <p>{{model.content}}</p>
-  <hr>
-
+  {{update-question question=model update="update"}}
   {{new-answer saveAnswer="saveAnswer2" question=model}}
 
   {{#each model.answers as |answer|}}

@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  updateRentalForm: false,
+  askQuestion: false,
   actions: {
     askQuestionFormShow() {
       this.set('askQuestion', true);

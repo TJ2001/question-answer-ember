@@ -16,9 +16,9 @@
         {{input value=content id="content"}}
       </div>
 
-      <button type="button" class="btn btn-primary btn-sm" {{action 'updateQuestion'}}>Update</button>
+      <button type="button" class="btn-lg btn-primary" {{action 'update' question}}>Update</button>
     </form>
   </div>
 {{else}}
-  <button class="btn-lg btn-danger" {{action 'updateQuestionShow'}}>Update Question</button>
+  <button class="btn-lg btn-primary" {{action 'updateQuestionShow'}}>Update Question</button>
 {{/if}}
